@@ -105,6 +105,7 @@ $MessageForm.addEventListener('submit',(e)=>{
 
 //fetch location
 sendLocation.addEventListener('click',()=>{
+     alert('Wait for a second your location is fetching')
      if(!navigator.geolocation)
      return alert('Geolocation is not supported by your browser')
      sendLocation.setAttribute('disabled','disabled' )
